@@ -64,7 +64,7 @@ class AsyncTask:
             while (time.time() - start) < timeout:
                 if not cls._running_tasks.get(task_id):
                     return
-                time.sleep(0.1)
+                time.sleep(0.01)
             task_thread.stop(AsyncTaskTimeoutException)
 
         if timeout:

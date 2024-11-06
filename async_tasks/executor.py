@@ -29,9 +29,9 @@ class AsyncTasksExecutor:
 
     def _run_next(self):
         if (
-            not self._pending_tasks
+            (not self._pending_tasks)
             or self.is_shutdown
-            or len(self._running_tasks) >= self.max_workers
+            or (self.max_workers and (len(self._running_tasks) >= self.max_workers))
         ):
             return
 
