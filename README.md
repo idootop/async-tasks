@@ -1,6 +1,6 @@
 # async-tasks
 
-<a href="https://pypi.python.org/pypi/async-tasks"><img src="http://img.shields.io/pypi/v/async-tasks.svg" alt="Latest version on PyPI"></a> <a href="https://pypi.python.org/pypi/async-tasks"><img src="https://img.shields.io/pypi/pyversions/async-tasks.svg" alt="Compatible Python versions."></a>
+<a href="https://pypi.python.org/pypi/async-tasks-python"><img src="http://img.shields.io/pypi/v/async-tasks-python.svg" alt="Latest version on PyPI"></a> <a href="https://pypi.python.org/pypi/async-tasks-python"><img src="https://img.shields.io/pypi/pyversions/async-tasks-python.svg" alt="Compatible Python versions."></a>
 
 A Python library for managing asynchronous tasks—supporting multi-threading, task cancellation, and timeout handling.
 
@@ -15,7 +15,7 @@ A Python library for managing asynchronous tasks—supporting multi-threading, t
 To install `async-tasks`, simply run:
 
 ```bash
-pip install async-tasks
+pip install async-tasks-python
 ```
 
 ## Usage Example
